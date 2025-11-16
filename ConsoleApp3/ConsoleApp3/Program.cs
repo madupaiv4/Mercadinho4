@@ -34,6 +34,7 @@ namespace ConsoleApp3
             {
                 Console.WriteLine($"- Produto: {item.item.Descricao}, Quantidade: {item.quantidade}, Valor Total: {item.CalcularValorItem()}");
             }
+            Console.WriteLine(DALProdutos.ObterTabelaProdutos());
 
             Console.ReadKey();
         }
